@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import SideBar from './SideBar'
+import SideBar from './SideBarAdmin'
 
 const Header = (props) => {
   return (

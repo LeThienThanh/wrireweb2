@@ -1,6 +1,6 @@
 
 const path = {
-    ADMIN: '/',
+    PUBLIC: '/',
     OVERVIEW: 'overview',
     ACCOUNT:'account',
     AUTHOR: 'author',
