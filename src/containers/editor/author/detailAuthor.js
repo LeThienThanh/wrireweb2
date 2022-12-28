@@ -1,20 +1,20 @@
-import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import React from 'react'
+import { eren } from '../../../assets'
 
-import OverviewStoryList from './story/overviewStoryList'
+import OverviewStoryList from './overviewStoryList'
 
-import { storydatalist } from './story/storydatalist'
+import { storydatalist } from './storydatalist'
 
+import { useNavigate } from 'react-router-dom'
 
+import Read from '../story/read'
 
-const Story = () => {
+const DetailAuthor = () => {
 
-  const navigate = useNavigate()
+    const navigate = useNavigate()
 
   return (
-        
-
-<div className='flex-col w-fit h-fit bg-[#F7F8FC] ml-[70px]'>
+    <div className='flex-col w-fit h-fit bg-[#F7F8FC] ml-[70px]'>
       
       <div className='bg-[#ffffff] w-[1122px] h-fit shadow-2xl rounded-lg border border-[#DFE0EB] '>
         
@@ -30,7 +30,7 @@ const Story = () => {
             Process
           </div>
           <div className='pl-[185px]'>
-            Unpain/ Paid
+            Unpaid/ Paid
           </div>
         </div>
 
@@ -39,20 +39,10 @@ const Story = () => {
         </div>
 
       </div>
-      
-
-      <div className='flex place-content-center w-full h-fit mt-[20px]'>
-        <div className='bg-[#7879F1] rounded-[100px] px-[14px] py-[2px]'>
-              <button className='mx-3 text-[#ffffff]'  onClick={() => navigate('/story/write')}>
-                  New Draft
-              </button>
-          </div>   
-      </div>
 
   </div>
     
-  
   )
 }
 
-export default Story
+export default DetailAuthor

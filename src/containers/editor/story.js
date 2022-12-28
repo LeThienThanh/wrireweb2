@@ -39,15 +39,6 @@ const Story = () => {
         </div>
 
       </div>
-      
-
-      <div className='flex place-content-center w-full h-fit mt-[20px]'>
-        <div className='bg-[#7879F1] rounded-[100px] px-[14px] py-[2px]'>
-              <button className='mx-3 text-[#ffffff]'  onClick={() => navigate('/story/write')}>
-                  New Draft
-              </button>
-          </div>   
-      </div>
 
   </div>
     
