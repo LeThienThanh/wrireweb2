@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 import { useEffect } from 'react'
 
 import { Account, Overview, Admin, Author,Editor,Settting,Story } from './containers/admin/';
@@ -20,13 +19,12 @@ import Detail_Editor_Ad from './containers/admin/editor/detailEditor';
 import Read_ad from './containers/admin/story/read';
 
 import path from './ultis/path';
+const Home = () => {
 
-function App() {
-  const role = 'admin'
+  const role = localStorage.getItem('role');
+  alert('hello');
   return (
-    <>
-      <div className="App">
-        <Routes >
+    < Routes>
           {(() => {
             switch(role) {
               case 'admin':
@@ -54,7 +52,7 @@ function App() {
                 <Route path = {'/story/read'} element={<Read_ed/>}/>
                 <Route path = {'/author/detail'} element={<DetailAuthor/>}/>
 
-                <Route path = {path.START} element={<Overview/>}/>
+                <Route path = {path.START} element={<Overview_ed/>}/>
               </Route>
               case 'author':
                 return <Route path = {path.PUBLIC} element={<Author_au/>}>
@@ -64,16 +62,12 @@ function App() {
                 <Route path = {path.SETTING} element={<Settting_au/>}/>
                 <Route path = {'/story/detail'} element={<DetailStory_au/>}/>
                 <Route path = {'/story/write'} element={<Write/>}/>
-                <Route path = {path.START} element={<Overview/>}/>
+                <Route path = {path.START} element={<Overview_au/>}/>
               </Route>
             }
           })()}
         </Routes>
-
-        
-      </div>
-  </>
-  );
+  )
 }
 
-export default App;
+export default Home
