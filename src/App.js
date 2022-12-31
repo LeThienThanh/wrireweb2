@@ -18,11 +18,12 @@ import Detail_Author_ad from './containers/admin/author/detailAuthor';
 import Detail_Story_ad from './containers/admin/story/detailStory';
 import Detail_Editor_Ad from './containers/admin/editor/detailEditor';
 import Read_ad from './containers/admin/story/read';
+import Login from './Login';
 
 import path from './ultis/path';
+let role = 'login'
 
 function App() {
-  const role = 'admin'
   return (
     <>
       <div className="App">
@@ -66,6 +67,8 @@ function App() {
                 <Route path = {'/story/write'} element={<Write/>}/>
                 <Route path = {path.START} element={<Overview/>}/>
               </Route>
+              case 'login':
+                return <Route path={path.PUBLIC} element={<Login/>}/>
             }
           })()}
         </Routes>

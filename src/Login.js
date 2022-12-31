@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useRef } from 'react';
+import { circle_logo } from './assets';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -34,12 +35,23 @@ const Login = () => {
         }
   };
   return (
-    <div className='w-full min-h-screen flex h-full bg-[#ffffff] items-center'>
-            <div className='flex-col items-center mx-[600px] text-center'>
-                <input type="text" placeholder="username" id='username' className='my-[5px]' ref={username}/>
-                <input type="password" placeholder="password" id='password' className='my-[5px]' ref={password}/>
+    <div className='w-full min-h-screen flex h-full bg-[#363740] items-center'>
 
-                <div onClick={check} className='bg-gray-500'>Login</div>
+            <div className='flex-col items-center mx-[600px] text-center bg-[#FCFDFE] w-[380px] h-[430px] rounded-lg py-[30px]'>
+
+              <div className='flex justify-center my-[5px] mt-[30px]'>
+                <img src={circle_logo} alt='logo' className='rounded-full w-[40px] h-[40px] border-[3px] border-[#3751FF]'/>
+              </div>             
+              <div className='text-[#A4A6B3] text-[19px] text-center'> WriReWeb</div>   
+
+              <input type="text" placeholder="Username" id='username' className='mb-[8px] mt-[20px] border-[1px] rounded p-[3px] w-[215px]' ref={username}/>
+
+              <input type="password" placeholder="Password" id='password' className='my-[10px] border-[1px] rounded p-[3px] w-[215px]' ref={password}/>
+
+              <div className='flex justify-center my-[5px] mt-[30px]'>
+                 <div onClick={check} className='bg-[#3751FF] w-[255px] h-[30px] rounded-lg p-[4px] text-center text-[#fff]'>Login</div>
+              </div>
+              
             </div>
             
     </div>
