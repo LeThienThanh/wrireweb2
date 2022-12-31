@@ -29,9 +29,6 @@ const Story = () => {
           <div className='ml-[255px]'>
             Process
           </div>
-          <div className='pl-[185px]'>
-            Unpain/ Paid
-          </div>
         </div>
 
         <div className=' items-center'>

@@ -12,6 +12,13 @@ const Setting = () => {
               </button>
           </div>   
       </div>
+      <div className='flex place-content-center w-full h-fit mt-[10px]'>
+      <div className='bg-slate-600 rounded-[100px] px-[14px] py-[2px]'>
+        <button className='mx-3 text-[#ffffff]'  onClick={() => {}}>
+                Update Avatar
+        </button>
+      </div>   
+    </div>
     </div>
   )
 }

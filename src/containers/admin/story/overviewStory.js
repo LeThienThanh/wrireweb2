@@ -25,14 +25,6 @@ const OverviewStory = ({avt, name, process, approve, unpaid, paid}) => {
                 {approve}
             </div>
         </div>
-        <div className='ml-[180px] flex-col'>
-            <div className='font-bold my-[2px] text-[14px] text-[#cf3535]'>
-                {unpaid} $
-            </div>
-            <div className='font-bold my-[2px] text-[14px] text-[#47e569]'>
-                {paid} $
-            </div>
-        </div>
     </div>
   )
 }

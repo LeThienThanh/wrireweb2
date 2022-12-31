@@ -9,9 +9,7 @@ const OverviewStoryList = ({storyData}) => {
         avt={data.avt}
         name={data.name}
         process={data.process}
-        approve={data.approve}
-        unpaid={data.unpaid}
-        paid={data.paid}    
+        approve={data.approve}  
         />
         ))}
     </div>
