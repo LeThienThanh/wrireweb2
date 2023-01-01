@@ -7,20 +7,29 @@ const Setting = () => {
     <div className='px-[100px] items-end'>
 
       <div className='flex place-content-center w-full h-fit mt-[10px]'>
-      <div className='bg-[#DB8E1A] rounded-[100px] px-[14px] py-[2px]'>
-        <button className='mx-3 text-[#ffffff]'  onClick={() => {}}>
-                Logout
-        </button>
-      </div>   
-    </div>
+        <div className='bg-[#DB8E1A] rounded-[100px] px-[14px] py-[2px]'>
+          <button className='mx-3 text-[#ffffff]'  onClick={() => {}}>
+                  Logout
+          </button>
+        </div>   
+      </div>
 
-    <div className='flex place-content-center w-full h-fit mt-[10px]'>
-      <div className='bg-slate-600 rounded-[100px] px-[14px] py-[2px]'>
-        <button className='mx-3 text-[#ffffff]'  onClick={() => {}}>
-                Update Avatar
-        </button>
-      </div>   
-    </div>
+      <div className='flex place-content-center w-full h-fit mt-[10px]'>
+        <div className='bg-slate-600 rounded-[100px] px-[14px] py-[2px]'>
+          <button className='mx-3 text-[#ffffff]'  onClick={() => {}}>
+                  Update Avatar
+          </button>
+        </div>   
+      </div>
+
+      <div className='flex place-content-center w-full h-fit mt-[10px]'>
+        <div className='bg-slate-600 rounded-[100px] px-[14px] py-[2px]'>
+          <button className='mx-3 text-[#ffffff]'  onClick={() => {}}>
+                  Update Penname
+          </button>
+        </div>   
+      </div>
+
     </div>
   )
 }

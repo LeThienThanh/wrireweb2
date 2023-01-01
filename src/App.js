@@ -21,7 +21,7 @@ import Read_ad from './containers/admin/story/read';
 import Login from './Login';
 
 import path from './ultis/path';
-let role = 'editor'
+let role = 'admin'
 
 function App() {
   return (

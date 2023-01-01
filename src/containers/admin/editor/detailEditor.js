@@ -54,9 +54,6 @@ const Detail_Editor_Ad = () => {
                       <div className='text-[#9FA2B4] ml-[153px] mt-[20px] font-bold text-sm'>
                           <p>Progress</p>
                       </div>
-                      <div className='text-[#9FA2B4] ml-[150px] mt-[20px] font-bold text-sm'>
-                          <p>Paid Status</p>
-                      </div>
                   </div>
                   <hr></hr>
                   <div className='flex'>
@@ -81,68 +78,9 @@ const Detail_Editor_Ad = () => {
                               <p className=''>200 chapters</p>
                           </div>
                       </div>
-                      <div className='mt-[13px] ml-[130px] font-bold text-sm text-[#C61C1C]'>
-                          <div className='w-[102px] h-[24px] bg-[#29CC97] text-center pt-0.5 text-[#ffffff] rounded-full'>
-                              <p>PAID</p>
-                          </div>
-                      </div>
+                      
                   </div>
-                  <div className='flex'>
-                      <div className='text-[#9FA2B4] ml-[20px] mt-[10px] font-bold text-sm w-[50px] h-[50px]'>
-                          <img src={meo1} alt='Hinh'></img>
-                      </div>
-                      <div className='text-[#252733] ml-[8px] mt-[13px] font-bold text-sm'>
-                          <p className=''>Chú bé chăn cừu</p>
-                          <div className='text-[#C5C7CD] text-[10px]'>
-                              <p className=''>Update 1 day ago</p>
-                          </div>
-                      </div>
-                      <div className='mt-[10px] ml-[202px] font-bold text-sm text-[#252733]'>
-                          <p>Tom Cruise</p>
-                          <div className='text-[#C5C7CD] text-[10px]'>
-                              <p className=''>Start on 24.05.2019</p>
-                          </div>
-                      </div>
-                      <div className='mt-[8px] ml-[130px] font-bold text-sm text-[#C62527331C1C]'>
-                          <p>3 story</p>
-                          <div className='text-[#C5C7CD] text-[10px]'>
-                              <p className=''>200 chapters</p>
-                          </div>
-                      </div>
-                      <div className='mt-[13px] ml-[130px] font-bold text-sm text-[#C61C1C]'>
-                          <div className='w-[102px] h-[24px] bg-[#29CC97] text-center pt-0.5 text-[#ffffff] rounded-full'>
-                              <p>PAID</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div className='flex'>
-                      <div className='text-[#9FA2B4] ml-[20px] mt-[10px] font-bold text-sm w-[50px] h-[50px]'>
-                          <img src={meo1} alt='Hinh'></img>
-                      </div>
-                      <div className='text-[#252733] ml-[8px] mt-[13px] font-bold text-sm'>
-                          <p className=''>Chú bé chăn cừu</p>
-                          <div className='text-[#C5C7CD] text-[10px]'>
-                              <p className=''>Update 1 day ago</p>
-                          </div>
-                      </div>
-                      <div className='mt-[10px] ml-[202px] font-bold text-sm text-[#252733]'>
-                          <p>Tom Cruise</p>
-                          <div className='text-[#C5C7CD] text-[10px]'>
-                              <p className=''>Start on 24.05.2019</p>
-                          </div>
-                      </div>
-                      <div className='mt-[8px] ml-[130px] font-bold text-sm text-[#C62527331C1C]'>
-                          <p>3 story</p>
-                          <div className='text-[#C5C7CD] text-[10px]'>
-                              <p className=''>200 chapters</p>
-                          </div>
-                      </div>
-                      <div className='mt-[13px] ml-[130px] font-bold text-sm text-[#C61C1C]'>
-                          <div className='w-[102px] h-[24px] bg-[#29CC97] text-center pt-0.5 text-[#ffffff] rounded-full'>
-                              <p>PAID</p>
-                          </div>
-                      </div>
-                  </div>
+                  
               </div>
           </div>
       </div>

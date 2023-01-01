@@ -2,6 +2,9 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useRef } from 'react';
 import { circle_logo } from './assets';
+// import { circle_logo } from './assets';
+
+// import circle_logo from './assets'
 
 const Login = () => {
   const navigate = useNavigate();
@@ -34,13 +37,15 @@ const Login = () => {
                 break;
         }
   };
+  const abf = 'circle_logo.png';
+
   return (
     <div className='w-full min-h-screen flex h-full bg-[#363740] items-center'>
 
             <div className='flex-col items-center mx-[600px] text-center bg-[#FCFDFE] w-[380px] h-[430px] rounded-lg py-[30px]'>
 
               <div className='flex justify-center my-[5px] mt-[30px]'>
-                <img src={circle_logo} alt='logo' className='rounded-full w-[40px] h-[40px] border-[3px] border-[#3751FF]'/>
+                <img src={require('./assets/' + abf)} alt='logo' className='rounded-full w-[40px] h-[40px] border-[3px] border-[#3751FF]'/>
               </div>             
               <div className='text-[#A4A6B3] text-[19px] text-center'> WriReWeb</div>   
 
