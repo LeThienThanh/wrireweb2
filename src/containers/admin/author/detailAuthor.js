@@ -2,7 +2,9 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { eren } from '../../../assets'
 import { meo1 } from '../../../assets'
+import OverviewStoryList from './overviewStoryList'
 
+import { storydatalist } from './storydatalist'
 const Detail_Author_ad = () => {
 const navigate = useNavigate()
     return (
@@ -58,37 +60,11 @@ const navigate = useNavigate()
                         </div>
                         
                     </div>
-                    <hr></hr>
-                    <div className='flex'>
-                        <div className='text-[#9FA2B4] ml-[20px] mt-[10px] font-bold text-sm w-[50px] h-[50px]'>
-                            <img src={meo1} alt='Hinh'></img>
-                        </div>
-                        <div className='text-[#252733] ml-[8px] mt-[13px] font-bold text-sm'>
-                            <p className=''>Chú bé chăn cừu</p>
-                            <div className='text-[#C5C7CD] text-[10px]'>
-                                <p className=''>Update 1 day ago</p>
-                            </div>
-                        </div>
-                        <div className='mt-[10px] ml-[148px] font-bold text-sm text-[#252733]'>
-                            <p>Chapters</p>
-                            <div className='text-[#C5C7CD] text-[10px]'>
-                                <p className=''>Chap 10</p>
-                            </div>
-                        </div>
-                        <div className='mt-[10px] ml-[100px] font-bold text-sm text-[#252733]'>
-                            <p>50$</p>
-                            <div className='text-[#C5C7CD] text-[10px]'>
-                                <p className=''>Total: 550$</p>
-                            </div>
-                        </div>
-                        <div className='mt-[8px] ml-[170px] font-bold text-sm text-[#C61C1C]'>
-                            <p>0$</p>
-                            <div className='text-[#35C655] text-sm font-bold'>
-                                <p className=''>550$</p>
-                            </div>
-                        </div>
-                        
+
+                    <div className=' items-center'>
+                        <OverviewStoryList storyData={storydatalist}/>
                     </div>
+                    
                  
                     
                 </div>
