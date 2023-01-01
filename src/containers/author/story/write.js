@@ -12,7 +12,10 @@ const Write = () => {
       <div className='text-[16px] w-full text-center'>Draft</div>
     </div>
     
-    <Content/>
+    <div className='flex w-full'>
+      <Content/>
+      <div className='bg-[#fff] w-[160px] h-[500px] rounded-lg ml-[10px] shadow-sm border-[2px]'>{'Comment'}</div>
+    </div>
 
     <div className='flex place-content-center w-full h-fit mt-[10px] mx-[200px]'>
       <div className='bg-[#B79F22] rounded-[100px] px-[14px] py-[2px]'>

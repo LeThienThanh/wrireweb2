@@ -15,15 +15,6 @@ const Author = () => {
           All Author
         </div>
 
-        {/* <div className='items-baseline my-[2px] text-[#9FA2B4] flex'>
-          <div className='pl-[75px]'>
-            Overview Author
-          </div>
-          <div className='pl-[315px]'>
-            Type
-          </div>
-        </div> */}
-
         <div className=' items-center'>
           <OverviewAuthorList authorData={authordatalist}/>
         </div>
